@@ -1,0 +1,22 @@
+{
+    "id":"nodebb-plugin-wsy-dice",
+    "name":"NodeBB Dice",
+    "discription":"add roll dice in post.",
+    "url": "https://github.com/wsyscz2/nodebb-plugin-wsy-dice",
+    "library": "./wsy-dice.js",
+    "staticDirs": {
+    },
+    "less": [
+
+    ],
+    "hooks": [
+        { "hook": "filter:parse.post", "method": "hooks.filter" },
+        { "hook": "action:post.save", "method": "hooks.action" }
+    ],
+    "scripts": [
+
+    ],
+    "acpScripts": [
+
+    ]
+}

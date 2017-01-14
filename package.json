@@ -1,0 +1,29 @@
+{
+    "name": "nodebb-plugin-wsy-dice",
+    "version": "0.0.0",
+    "description": "Dice",
+    "main": "./wsy-dice.js",
+    "scripts": {
+    },
+    "keywords": [
+        "dice",
+        "markdown",
+        "content"
+    ],
+    "author": "wsyscz2",
+    "license": "MIT",
+    "bugs": {
+        "url": ""
+    },
+    "homepage": "",
+    "nbbpm": {
+        "compatibility": "^1.0.0"
+    },
+    "dependencies": {
+        "async": "^2.0.1",
+        "clone-regexp": "^1.0.0",
+        "winston": "^2.3.0"
+    },
+    "devDependencies": {
+    }
+}
