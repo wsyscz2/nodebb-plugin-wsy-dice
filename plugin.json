@@ -10,11 +10,14 @@
 
     ],
     "hooks": [
-        { "hook": "filter:parse.post", "method": "hooks.filter" },
-        { "hook": "action:post.save", "method": "hooks.action" }
+        { "hook": "filter:parse.post", "method": "hooks.parse" },
+        { "hook": "filter:post.edit", "method": "hooks.edit" },
+        { "hook": "filter:post.create", "method": "hooks.create" },
+        { "hook": "filter:post.get", "method": "hooks.get"},
+        { "hook": "filter:post.getFields", "method": "hooks.getFields"}
     ],
     "scripts": [
-
+        "public/src/client.js"
     ],
     "acpScripts": [
 

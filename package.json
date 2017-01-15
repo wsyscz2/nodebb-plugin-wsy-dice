@@ -22,7 +22,8 @@
     "dependencies": {
         "async": "^2.0.1",
         "clone-regexp": "^1.0.0",
-        "winston": "^2.3.0"
+        "winston": "^2.3.0",
+        "seedrandom": "^2.3.10"
     },
     "devDependencies": {
     }
