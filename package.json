@@ -8,7 +8,7 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/wsyscz2/nodebb-plugin-wsy-dice.git"
-    }
+    },
     "keywords": [
         "dice",
         "markdown",
