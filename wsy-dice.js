@@ -93,7 +93,7 @@
             for (var i = 0; i < payload.posts.length; ++i) {
                 var data = payload.posts[i];
                 winston.info(data);
-                if (data.content !== undefined) {
+                if (data.content !== undefined && data.content !== null) {
                     winston.info("cut dice seed:" + data.content);
                     data.content = data.content.replace(constant.REG_DICE_SEED, "");
                 }
