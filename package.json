@@ -1,10 +1,14 @@
 {
     "name": "nodebb-plugin-wsy-dice",
-    "version": "0.0.0",
-    "description": "Dice",
+    "version": "0.0.1",
+    "description": "Add dice roll to the post.",
     "main": "./wsy-dice.js",
     "scripts": {
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wsyscz2/nodebb-plugin-wsy-dice.git"
+    }
     "keywords": [
         "dice",
         "markdown",
@@ -13,9 +17,9 @@
     "author": "wsyscz2",
     "license": "MIT",
     "bugs": {
-        "url": ""
+        "url": "https://github.com/wsyscz2/nodebb-plugin-wsy-dice/issues"
     },
-    "homepage": "",
+    "homepage": "https://github.com/wsyscz2/nodebb-plugin-wsy-dice#readme",
     "nbbpm": {
         "compatibility": "^1.0.0"
     },

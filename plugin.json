@@ -7,7 +7,7 @@
     "staticDirs": {
     },
     "less": [
-
+        "assets/style.less"
     ],
     "hooks": [
         { "hook": "filter:parse.post", "method": "hooks.parse" },
